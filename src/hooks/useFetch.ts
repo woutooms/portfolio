@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import api from "../api/api.json";
 
-interface Api<T> {
-  [portfolio: string]: T | Record<string, unknown>;
+interface Api {
+  [key: string]: any;
 }
 
 function getValueByPath<T>(
@@ -42,7 +42,7 @@ const useFetch = <T>(url: string) => {
       setError(null);
 
       try {
-        const _api: Api<T>[] = api;
+        const _api: Api[] = api as Api[];
         const found = getValueByPath(_api, url);
 
         if (!found) {

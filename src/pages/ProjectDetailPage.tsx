@@ -6,8 +6,7 @@ import {
   ArrowLeftIcon, 
   ArrowTopRightOnSquareIcon, 
   CalendarIcon, 
-  CheckCircleIcon,
-  PlayIcon
+  CheckCircleIcon
 } from "@heroicons/react/24/outline";
 
 const ProjectDetailPage: React.FC = () => {

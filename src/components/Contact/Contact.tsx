@@ -1,5 +1,4 @@
 import {
-  BuildingOffice2Icon,
   EnvelopeIcon,
   PhoneIcon,
   MapPinIcon,
