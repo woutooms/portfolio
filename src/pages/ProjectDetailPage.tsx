@@ -58,7 +58,7 @@ const ProjectDetailPage: React.FC = () => {
   return (
     <div className="min-h-screen pt-8 pb-16">
       {/* Breadcrumb */}
-      <section className="py-8 bg-white border-b border-gray-200">
+      <section className=" bg-white border-b border-gray-200">
         <div className="section-container">
           <nav className={`flex items-center space-x-4 text-sm transition-all duration-500 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
             <a href="/" className="text-gray-500 hover:text-primary-600 transition-colors">
@@ -75,7 +75,7 @@ const ProjectDetailPage: React.FC = () => {
       </section>
 
       {/* Project Header */}
-      <section className="py-16 bg-gradient-to-br from-primary-50 to-accent-50">
+      <section className="py-5 bg-gradient-to-br from-primary-50 to-accent-50">
         <div className="section-container">
           <div className={`max-w-4xl mx-auto text-center transition-all duration-700 delay-200 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <div className="mb-6">
@@ -121,7 +121,7 @@ const ProjectDetailPage: React.FC = () => {
       </section>
 
       {/* Image Gallery */}
-      <section className="py-16 bg-white">
+      <section className="py-5 bg-white">
         <div className="section-container">
           <div className="max-w-7xl mx-auto">
             {/* Main Image */}
@@ -162,10 +162,10 @@ const ProjectDetailPage: React.FC = () => {
       </section>
 
       {/* Project Details */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-10 bg-gray-50">
         <div className="section-container">
           <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-12">
+            <div className="grid md:grid-cols-3 gap-8">
               {/* Description */}
               <div className={`md:col-span-2 transition-all duration-700 delay-600 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
                 <h2 className="text-2xl font-bold text-gray-900 mb-6">
@@ -230,7 +230,7 @@ const ProjectDetailPage: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-white">
+      <section className="py-10 bg-white">
         <div className="section-container">
           <div className={`max-w-4xl mx-auto text-center transition-all duration-700 delay-800 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">

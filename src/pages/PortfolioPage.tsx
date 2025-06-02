@@ -25,7 +25,7 @@ const PortfolioPage: React.FC = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-12 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-accent-50 opacity-50"></div>
         <div className="relative section-container">
           <General 
@@ -40,9 +40,9 @@ const PortfolioPage: React.FC = () => {
       {/* Main Content */}
       <div className="relative">
         {/* Skills Section */}
-        <section className="py-16 bg-white">
+        <section className="py-10 bg-white">
           <div className="section-container">
-            <div className="text-center mb-12">
+            <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Skills & Expertise
               </h2>
@@ -55,9 +55,9 @@ const PortfolioPage: React.FC = () => {
         </section>
 
         {/* Education & Experience Section */}
-        <section className="py-16 bg-gray-50">
+        <section className="py-10 bg-gray-50">
           <div className="section-container">
-            <div className="grid md:grid-cols-2 gap-12">
+            <div className="grid md:grid-cols-2 gap-8">
               {/* Education */}
               <div>
                 <div className="text-center mb-8">
@@ -88,9 +88,9 @@ const PortfolioPage: React.FC = () => {
         </section>
 
         {/* Projects Preview Section */}
-        <section className="py-16 bg-white">
+        <section className="py-10 bg-white">
           <div className="section-container">
-            <div className="text-center mb-12">
+            <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Uitgelichte Projecten
               </h2>
@@ -111,9 +111,9 @@ const PortfolioPage: React.FC = () => {
         </section>
 
         {/* Reflection Section */}
-        <section className="py-16 bg-gray-50">
+        <section className="py-10 bg-gray-50">
           <div className="section-container">
-            <div className="text-center mb-12">
+            <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Persoonlijke Reflectie
               </h2>

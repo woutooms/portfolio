@@ -19,9 +19,9 @@ const Contact: React.FC = () => {
 
   return (
     <div className="max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Contact Information */}
-        <div className="space-y-8">
+        <div className="space-y-6">
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Laten we contact maken

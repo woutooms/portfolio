@@ -5,7 +5,7 @@ const ContactPage: React.FC = () => {
   return (
     <div className="min-h-screen pt-8 pb-16">
       {/* Header Section */}
-      <section className="py-16 bg-gradient-to-br from-primary-50 to-accent-50">
+      <section className="py-10 bg-gradient-to-br from-primary-50 to-accent-50">
         <div className="section-container text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Contact
@@ -18,7 +18,7 @@ const ContactPage: React.FC = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16 bg-white">
+      <section className="py-10 bg-white">
         <div className="section-container">
           <Contact />
         </div>

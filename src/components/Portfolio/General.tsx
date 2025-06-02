@@ -66,7 +66,7 @@ const General: React.FC<GeneralProps> = ({
           enterFrom="opacity-0 transform translate-y-8"
           enterTo="opacity-100 transform translate-y-0"
         >
-          <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
             {description}
           </p>
         </Transition>
@@ -77,7 +77,7 @@ const General: React.FC<GeneralProps> = ({
           enterFrom="opacity-0 transform translate-y-8"
           enterTo="opacity-100 transform translate-y-0"
         >
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <Button
               onClick={scrollToNextSection}
               className="group"
